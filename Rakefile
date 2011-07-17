@@ -16,9 +16,9 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "dromedary"
   gem.homepage = "http://github.com/jcalvert/dromedary"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.license = "Apache"
+  gem.summary = %Q{A Ruby DSL for Apache Camel}
+  gem.description = %Q{Apache Camel is a very powerful library written in Java. Dromedary tries to add some Rubyisms to it via JRuby.}
   gem.email = "jcalvert@vetstreet.com"
   gem.authors = ["Jonathan Calvert"]
   # dependencies defined in Gemfile
